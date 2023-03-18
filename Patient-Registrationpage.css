@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.sidebar {
+  background-color: navy;
+  color: gold;
+  height: 100vh;
+  width: 15%;
+  position: fixed;
+}
+
+.patient-text {
+  margin-top: 0;
+  padding-top: 5%;
+  padding-left: 100px;
+}
+
+.inputs {
+  display: flex;
+  margin-top: 5%;
+  padding-left: 25%;
+}
+
+.textbox {
+  box-sizing: border-box;
+  width: 20%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5%;
+}
+
+.information-tab2 {
+  margin-top: 4%;
+  margin-left: 15%;
+}
+
+.dropdown-box {
+  box-sizing: border-box;
+  width: 12%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5%;
+}
+
+.information-tab3 {
+  margin-top: 1%;
+  margin-left: 10%;
+}
+
+.textbox2 {
+  box-sizing: border-box;
+  width: 20%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5%;
+  margin-top: 4%;
+}
+
+.save {
+  margin-top: 35px;
+  height: 60px;
+  width: 10%;
+  font-size: 100%;
+  color: white;
+  background-color: navy;
+  border-radius: 4px;
+  transition-duration: 0.5s;
+}
+
+.save:hover {
+  opacity: 0.8;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 128, 0.76);
+}
+
+.save:active {
+  opacity: 0.5;
+}
